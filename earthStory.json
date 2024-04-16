@@ -1,0 +1,58 @@
+{
+    "Title": "Earth's climate: Latitudinal Summary",
+    "Credits": "Created by Phineas Asmelash (pasmelas@ucsc.edu).",
+    "InitialLocation": "North Pole",
+    "Locations": {
+        "North Pole": {
+            "Body": "North pole is identified for its very dry and cold climate conditions and housing the beloved but also endangered Polar Bears.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Tropic of Cancer"
+                }
+            ]
+        },
+        "Tropic of Cancer": {
+            "Body": "Tropic of Cancer, also known as the Northern Tropic, generally has a dry and hot climate with exception of highland regions like China, and marine environments like Hawaii. Most places in this latitude experience either hot summers or warm winters all year round.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "North Pole"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Equator"
+                }
+            ]
+        },
+        "Equator": {
+            "Body": "Equatorial regions often experience a hot climate with little seasonal variation year round. As a result, many equatorial cultures recognize two seasons—wet and dry. The wet, or rainy, season often lasts most of the year. The long, warm, rainy season creates tropical rainforests.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Tropic of Cancer"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Tropic of Capricorn"
+                }
+            ]
+        },
+        "Tropic of Capricorn": {
+            "Body": "Tropic of Capricorn, also known as the Southern Tropic has approximately 10 hours, 41 minutes of daylight during the June solstice (Southern Hemisphere winter). During the December solstice (Southern Hemisphere summer), there are 13 hours, 35 minutes of daylight. Climate is similar to the Tropic of Cancer.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Equator"
+                },
+                {
+                    "Text": "South",
+                    "Target": "South Pole"
+                }
+            ]
+        },
+        "South Pole": {
+            "Body": "Extremely dry and cold climate conditions. This is the Latitudinal area that houses Antartica, the coldest place on earth. Ice barely melts in this place (at least up until humans introduced Global Warming into the atmosphere)."
+        }
+    }
+}

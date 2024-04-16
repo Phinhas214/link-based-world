@@ -4,7 +4,7 @@
     "InitialLocation": "Kresge",
     "Locations": {
         "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+            "Body": "This is Kresge College, lots of nice trees. Kresge's core course, Power and Representation, is a course in the literature of individual and collective struggles for social justice, with an emphasis on dialogues about gender identity, anti-racism movements, documentation status and immigrants' rights",
             "Choices": [
                 {
                     "Text": "South",
@@ -13,7 +13,7 @@
             ]
         },
         "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
+            "Body": "This is Porter College, the trees are nice here too. The Porter core course, Writing Across the Arts, addresses social, political, and aesthetic issues raised by selected works of literature and art in a variety of media",
             "Choices": [
                 {
                     "Text": "North",
@@ -26,7 +26,7 @@
             ]
         },
         "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+            "Body": "Rachel Carson College, more sun and fewer trees. The college’s core course focuses on California, deepening students’ understanding of the vital connections between contemporary social systems and environmental change through lectures, films, readings, writing classes and research, and enabling students to develop reading and writing skills in a seminar format.",
             "Choices": [
                 {
                     "Text": "North",
@@ -39,7 +39,7 @@
             ]
         },
         "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+            "Body": "Oakes College, even the buildings have tree bark on them. Communicating Diversity for a Just Society, the Oakes College core course, introduces students to the major intellectual, cultural, social, and political themes that have shaped the college for over four decades.",
             "Choices": [
                 {
                     "Text": "North",
@@ -52,7 +52,7 @@
             ]
         },
         "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+            "Body": "Check out the other colleges at the UCSC website to see what they're about!"
         }
     }
 }
