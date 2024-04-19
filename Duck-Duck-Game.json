@@ -1,0 +1,255 @@
+{
+    "Title": "Duck-Duck Game",
+    "Credits": "Created by Phineas Asmelash (pasmelas@ucsc.edu).",
+    "InitialLocation": "Barn Courtyard",
+    "Locations": {
+        "Barn Courtyard": {
+            "Body": "<br>You and your duck buddy find yourselves stranded in a farm courtyard. Your duck friend is furious about this so she tells you that she will go around the farm and do mischievous things to get her sweet revenge on the farmer. Your objective is to guide both of you duck buddies out of the farm without getting caught. Currently you are inside the barn courtyard and your friend decides to push a bucket full of milk onto the floor, spilling the contents. This alerts the farmer and now he's headed your way!", 
+            "Choices": [
+                {
+                    "Text": "duck and go to the Cow Cage",
+                    "Target": "Cow Cage"
+                }, 
+                {
+                    "Text": "go to the Cow Cage",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Milk House",
+                    "Target": "Milk House"
+                }, 
+                {
+                    "Text": "go to the Milk House",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Grain Bin",
+                    "Target": "Grain Bin"
+                },
+                {
+                    "Text": "go to the Grain Bin",
+                    "Target": "The End"
+                }
+            ]
+        },
+        "Barn Farmyard": {
+            "Body": "<br>You're back to the Barn Courtyard!",
+            "Choices": [
+                {
+                    "Text": "duck and open the Gate to the Farmyard",
+                    "Target": "Grass Land"
+                }, 
+                {
+                    "Text": "open the Gate to the Farmyard",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Cow Cage",
+                    "Target": "Cow Cage"
+                }, 
+                {
+                    "Text": "go to the Cow Cage",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Milk House",
+                    "Target": "Milk House"
+                }, 
+                {
+                    "Text": "go to the Milk House",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Grain Bin",
+                    "Target": "Grain Bin"
+                },
+                {
+                    "Text": "go to the Grain Bin",
+                    "Target": "The End"
+                }
+            ]
+        },
+        "Cow Cage": {
+            "Body": "<br>You're now in the Cow Cage along with all the cows. Your friend decides to open the gate and let the cows roam free in the barn courtyard. This alerts the farmer and now he's busy getting all the cows back. However, the cows can't get out of the barn courtyard because the gate is locked.",
+            "Choices": [
+                {
+                    "Text": "duck and go to the Milk House",
+                    "Target": "Milk House"
+                },
+                {
+                    "Text": "go to the Milk House",
+                    "Target": "The End"
+                }
+            ]
+        },
+        "Milk House": {
+            "Body": "<br>You're now at the Milk House. Your friend sees the bulk tank where all the milk is stored. She then goes on to open the lid and throws it onto the floor. This makes a big clanking noise when it hits the floor and this tells the farmer of your location.",
+            "Choices": [
+                {
+                    "Text": "duck and go to the Tack Room",
+                    "Target": "Tack Room"
+                },
+                {
+                    "Text": "go to the Tack Room",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Grain Bin",
+                    "Target": "Grain Bin"
+                },
+                {
+                    "Text": "go to the Grain Bin",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Cow Cage",
+                    "Target": "Cow Cage"
+                },
+                {
+                    "Text": "go to the Cow Cage",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to back to the Barn Courtyard",
+                    "Target": "Barn Farmyard"
+                },
+                {
+                    "Text": "go to the Barn Courtyard",
+                    "Target": "The End"
+                }
+            ]
+        },
+        "Grain Bin": {
+            "Body": "<br>You've reached the Grain Bin. You tell your friend to not create a fuss becuase the framer is looking to put you both back into a cage. Your friend doesn't seem to mind and keeps pecking at the grain. You notice this and you don't see why not to reward yourself with a well deserved snack so you join her.",
+            "Choices": [
+                {
+                    "Text": "duck and go to the Milk House",
+                    "Target": "Milk House"
+                },
+                {
+                    "Text": "go to the Milk House",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Feed Room",
+                    "Target": "Feed Room"
+                },
+                {
+                    "Text": "go to the Feed Room",
+                    "Target": "Feed Room"
+                }
+
+            ]
+        },
+        "Tack Room": {
+            "Body": "<br>You're now in the Tack room. You see a lot of the different metal materials used for different animals. Your friend sees this as an opportunity to make the farmer even more furious. She proceeds to push the horse shoes, saddles, and the bridles onto the floor making big rattling sounds. You get annoyed at this but then you <b>spot a key</b> hanging off the walls. However, the farmer is on his way...",
+            "Choices": [
+                {
+                    "Text": "duck and grab the key",
+                    "Target": "Tack Room"
+                },
+                {
+                    "Text": "grab the key",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Milk House",
+                    "Target": "Milk House"
+                },
+                {
+                    "Text": "go to the Milk House",
+                    "Target": "Milk House"
+                },
+                {
+                    "Text": "duck and go to the Horse Cage",
+                    "Target": "Horse Cage"
+                },
+                {
+                    "Text": "go to the Horse Cage",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Feed Room",
+                    "Target": "Feed Room"
+                },
+                {
+                    "Text": "go to the Feed Room",
+                    "Target": "Feed Room"
+                }
+
+            ]
+        },
+        "Horse Cage": {
+            "Body": "<br>When you get to the Horse Cage, fleeing from the sight of the farmer for now. Your friend brought with her a horse shoe and immediately gave it to one of the horses that had a faulty shoe, helping him put the shoe on. She made a friend out of this horse and landed a good impression on the other horses. However, this moment of calm didn't last long as she then opened all the gates for the horse cages, freeing all the horses into the barn courtyard. This alerts the farmer and now he's preoccupied with putting all the horses back to their respective cages.",
+            "Choices": [
+                {
+                    "Text": "duck and go to the Tack Room",
+                    "Target": "Tack Room"
+                },
+                {
+                    "Text": "go to the Tack Room",
+                    "Target": "The End"
+                }
+
+            ]
+        },
+        "Feed Room": {
+            "Body": "<br>You dodged the farmer and safely got to the Feed Room. You see grain neatly stored in fancy containers. You and your friend both go ahead and feed yoursleves with the delicious grain. Until it's time for you to leave because the farmer is about to come through the door.",
+            "Choices": [
+                {
+                    "Text": "duck and go to the Tack Room",
+                    "Target": "Tack Room"
+                },
+                {
+                    "Text": "go to the Tack Room",
+                    "Target": "The End"
+                },
+                {
+                    "Text": "duck and go to the Grain Bin",
+                    "Target": "Grain Bin"
+                },
+                {
+                    "Text": "go to the Grain Bin",
+                    "Target": "Grain Bin"
+                }
+
+            ]
+        },
+
+
+        "Grass Land": {
+            "Body": "<br>You successfully evaded the farmer and were able to free yourselves from the barn out onto the Farmyard. You find yourselves in the grassland portion of the Farmyard where all the horses gallop and the cows graze through the grass. This makes your friend extremely happy. Happy that she got out of the oppressive barn. A happiness so contagious that it makes you feel proud of yourslef for plotting your escape from the barn. However, this moment is short-lived as the farmer quickly got to put all the animals back into their cages and now he's hunting you two!",
+            "Choices": [
+                {
+                    "Text": "duck and go to the Crop Garden",
+                    "Target": "Crop Garden"
+                },
+                {
+                    "Text": "go to the Crop Garden",
+                    "Target": "The End"
+                }
+            ]
+        },
+        "Crop Garden": {
+            "Body": "<br>Splitting into different directions, you enter the Crop Garden and not after too long you sense that the farmer isn't following you anymore. You also <b>don't have to duck anymore</b> because the crops are tall enough to cover your entire body and since it's a maze like structure it's make it easy to hide from the farmer. However, when you get to the other side of the Crop Garden you don't see your partner anymore. The only way to escape at that time was to split up in order to stretch the farmer thin, but that also meant that you might never see your duck partner again.",
+            "Choices": [
+                {
+                    "Text": "go to the Fruits Garden",
+                    "Target": "Fruits Garden"
+                }
+            ]
+        },
+        "Fruits Garden": {
+            "Body": "<br>Your run into the Fruit Garden and on your way through, you spot multitude of well kept mango, apple, and orange trees all lined up in a geometric straight line. After hours of looking around you find your duck buddy, you both are happy to see eachother and you head off towards the sunset where your freedom lies."
+        },
+        "The End": {
+            "Body": "<br>You didn't duck or you didn't have the keys to unlock the gate so the Farmer caught you and put you and your duck partner back into the cage.",
+            "Choices": [
+                {
+                    "Text": "Try again",
+                    "Target": "Barn Courtyard"
+                }
+            ]
+        }
+    }
+}
